@@ -28,3 +28,7 @@ ntuser.ini
 __pycache__/
 *.pyc
 .venv/
+.env/
+
+.vscode/
+.idea/
