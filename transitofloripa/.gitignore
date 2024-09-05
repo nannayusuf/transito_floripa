@@ -1,0 +1,33 @@
+# Ignorar diretórios de sistema e arquivos de usuário
+AppData/
+Contacts/
+Documents/
+Favorites/
+Links/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+NTUSER.DAT*
+OCR/
+Pictures/
+Saved Games/
+Searches/
+ntuser.dat*
+ntuser.ini
+
+*.log
+*.pyc
+*.pyo
+__pycache__/
+
+.matplotlib/
+.streamlit/
+.vscode/
+.vscode-R/
+
+meetings/
+dados_transito.csv
+
