@@ -1,33 +1,29 @@
-# Ignorar diretórios de sistema e arquivos de usuário
+# Ignorar diretórios do sistema Windows
+Application\ Data/
+Cookies/
+Local\ Settings/
+My\ Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start\ Menu/
+Templates/
 AppData/
 Contacts/
 Documents/
 Favorites/
 Links/
-NetHood/
-PrintHood/
-Recent/
-SendTo/
-Start Menu/
-Templates/
 NTUSER.DAT*
 OCR/
 Pictures/
-Saved Games/
+Saved\ Games/
 Searches/
 ntuser.dat*
 ntuser.ini
 
 *.log
-*.pyc
-*.pyo
+*.tmp
+
 __pycache__/
-
-.matplotlib/
-.streamlit/
-.vscode/
-.vscode-R/
-
-meetings/
-dados_transito.csv
-
+*.pyc

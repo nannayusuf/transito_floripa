@@ -43,10 +43,9 @@ def plot_traffic_data():
         df = pd.read_csv('traffic_data.csv', names=['origin', 'destination', 'estimated_time', 'timestamp'])
         df['timestamp'] = pd.to_datetime(df['timestamp'])
         
-        # Convert estimated_time to minutes
         df['time_in_minutes'] = df['estimated_time'].apply(lambda x: int(x.split()[0]))
         
-        # Plot the graph
+        #gráficos
         plt.figure(figsize=(10, 6))
         plt.plot(df['timestamp'], df['time_in_minutes'], marker='o', linestyle='-')
         plt.title('Variação do Tempo de Viagem ao Longo do Tempo')
@@ -59,7 +58,6 @@ def plot_traffic_data():
     except FileNotFoundError:
         print("Arquivo de dados não encontrado.")
 
-# Collect data and plot graph
 while True:
     collect_traffic_data()
     plot_traffic_data()
